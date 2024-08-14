@@ -1,0 +1,136 @@
+body {
+    font-family: Roboto;
+}
+
+.navbar ul {
+    background-color: #1F2937;
+    display: flex;
+    padding: 20px 200px;
+    gap: 20px;
+    list-style: none;
+    color: #F9FaF8;
+    font-size: 18px;
+    margin: 0;
+}
+
+.push-left {
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.headline {
+    background-color: #1F2937;
+    display: flex;
+    color: #F9FaF8;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.headline img {
+    margin-left: auto;
+
+}
+
+.headline-text {
+    display: flex;
+    flex-direction: column;
+    gap: -10px;
+    margin-right: auto;
+    width: 30%;
+}
+
+.headline button {
+    background-color: #3882f6;
+    border: none;
+    color: #F9FaF8;
+    font-weight: 600;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.random {
+    text-align: center;
+    font-size: 28px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 0 220px;
+    margin: 50px 0;
+}
+
+.card {
+    width: 170px;
+}
+
+.card .content img {
+    height: 150px;
+    width: 150px;
+}
+
+.card .content {
+    width: 150px; /* Ancho de la imagen o contenido */
+    height: 150px; /* Alto de la imagen o contenido */
+    border: 2px solid #4A90E2; /* Estilo del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.card footer {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 80px 280px;
+}
+
+.quote .author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    margin-top: -50px;
+}
+
+.call {
+    display: flex;
+    color: #E5E7EB;
+    margin: 80px 200px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+    border-radius: 8px;
+}
+
+.call h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.call p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.call button {
+    background-color: #3882f6;
+    border: solid;
+    color: #F9FaF8;
+    font-weight: 600;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: auto;
+}
